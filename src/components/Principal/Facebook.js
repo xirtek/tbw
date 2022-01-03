@@ -11,9 +11,9 @@ function Iframe(props) {
 function Facebook() {
   return (
     <div className="Face">
-      <h1>Publicaciones de Facebook</h1>
+      <h1>Nuestro Facebook</h1>
       <br/>
-      <Iframe iframe={iframe} />,
+      <Iframe iframe={iframe}/>
     </div>
   );
 }

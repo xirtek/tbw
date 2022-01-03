@@ -1,20 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
-import Encabezado from './components/Encabezado.js';
-import Footer from './components/Footer.js';
-import Menu from './components/Menu.js';
-import Contenido from './components/Contenido.js';
+import Encabezado from './components/Header/Encabezado.js';
+import Footer from './components/Footer/Footer.js';
+import Menu from './components/Menu/Menu.js';
+import Contenido from './components/Principal/Contenido.js';
+import Historia from './components/Historia/Historia';
+
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Encabezado/>
-      <Menu/>
-      <hr/>
-      <Contenido/>
-      <hr/>
-      <Footer/>
-    </div>
+    <Router>
+      <div className="container">
+        <Encabezado/>
+        <Menu/>
+        <hr/>
+        <Switch>
+          <Route path="/historia">
+            <Historia/>
+          </Route>
+          <Route path="/">
+            <Contenido/>
+          </Route>
+        </Switch>
+        <hr/>
+        <Footer/>
+      </div>
+    </Router>
   );
 }
 

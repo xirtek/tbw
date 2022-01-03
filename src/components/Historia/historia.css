@@ -1,0 +1,18 @@
+/* Con el .carousel-inner1 se mantienen las imágenes de cierto tamaño y se oculta la anterior */
+/* falta que cuando se achique la ventana se mantenga la forma cuadrada en todo */
+
+.carousel-inner1 img{
+    width: 100%;
+    max-height: 460px;
+}
+
+.carousel-inner1{
+    height: 460px;
+    overflow: hidden;
+}
+
+/* Texto justificado */
+.historia-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
