@@ -1,7 +1,7 @@
 import React from "react";
-import Facebook from './Facebook.js';
 import Presentacion from './Presentacion.js';
-import UltimoVideo from './UltimoVideo.js';
+import Spotify from './Spotify.js';
+import Facebook from './Facebook.js';
 
 class Contenido extends React.Component{
     render(){
@@ -18,7 +18,7 @@ class Contenido extends React.Component{
                     <div class="col-sm d-flex">
                         <div class="card">
                             <div class="card-body">
-                                <UltimoVideo/>                                
+                                <Spotify/>                                
                             </div>
                         </div>
                     </div>
