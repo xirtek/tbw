@@ -8,6 +8,7 @@ class Historia extends React.Component{
         const tbwnew = 'https://www.ivoox.com/podcast-the-breves-w-e-a-s_sq_f1411481_1.html';
         const tbwytb = 'https://www.youtube.com/channel/UCiNxfEebhQJeUvX5H08xC3Q';
         const capituloFinal1raTempo = 'https://www.ivoox.com/the-breves-weas-114-miscelaneo-the-audios-mp3_rf_17275184_1.html';
+        const cambioHost = 'https://www.ivoox.com/the-breves-w-e-a-s-2022-sin-sora-kasugano-audios-mp3_rf_80352747_1.html';
 
         return (
             <div>
@@ -26,6 +27,8 @@ class Historia extends React.Component{
                             <p class="historia-justify">El 23 de Abril del 2017, volvimos con nuevos aires, ya que, cambiamos un poco el nombre del podcast a <a target="_blank" href={tbwnew}>The Breves W.E.A.S</a>.</p>
                             <br/>
                             <p class="historia-justify">Tiempo después, pasamos de estar en Ivoox y Facebook a encontrarnos en más plataformas (Instagram, Youtube y Spotify).</p>
+                            <br/>
+                            <p class="historia-justify">Iniciando 2022, hubo un <a target="_blank" href={cambioHost}>cambio de host</a>, por lo que LOLO es el que comienza a organizar el podcast. SORA nos acompaña en algunas ocasiones como invitado especial.</p>
                             <br/>
                             <p class="historia-justify">Hay ocasiones en que hacemos contenido exclusivo para nuestro <a target="_blank" href={tbwytb}>canal de youtube</a>: Un Stream Loco y Traverse Weas.</p>
                             </div>
