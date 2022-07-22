@@ -17,7 +17,6 @@ function App() {
       <div className="container">
         <Encabezado/>
         <Menu/>
-        <hr/>
         <Switch>
           <Route path="/historia">
             <Historia/>
@@ -26,7 +25,6 @@ function App() {
             <Contenido/>
           </Route>
         </Switch>
-        <hr/>
         <Footer/>
       </div>
     </Router>

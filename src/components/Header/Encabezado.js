@@ -4,7 +4,7 @@ import imagen from '../../images/Portada/portada.png';
 class Encabezado extends React.Component{
     render(){
         return (
-            <img width="100%" height="140px" src={imagen}/>
+            <img class="img-fluid" src={imagen}/>
         );
     }
 }
