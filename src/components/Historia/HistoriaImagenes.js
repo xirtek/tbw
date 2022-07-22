@@ -23,38 +23,37 @@ class HistoriaImagenes extends React.Component{
                 <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
                     <div class="carousel-inner1">
                         <div class="carousel-item active" data-bs-interval="4000">
-                        <img src={comic1} class="d-block w-100" />
+                            <img src={comic1} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
-                        <img src={figura1} class="d-block w-100" />
+                            <img src={figura1} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
-                        <img src={figura2} class="d-block w-100"/>
+                            <img src={figura2} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
-                        <img src={juego1} class="d-block w-100"/>
+                            <img src={juego1} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
-                        <img src={lolosora} class="d-block w-100"/>
+                            <img src={lolosora} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
-                        <img src={meme1} class="d-block w-100"/>
+                            <img src={meme1} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
-                        <img src={meme2} class="d-block w-100"/>
+                            <img src={meme2} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
-                        <img src={meme3} class="d-block w-100"/>
+                            <img src={meme3} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
-                        <img src={spotify1} class="d-block w-100"/>
+                            <img src={spotify1} class="d-block w-100" alt=""/>
                         </div>
                         <div class="carousel-item" data-bs-interval="4000">
-                        <img src={spotify2} class="d-block w-100"/>
+                            <img src={spotify2} class="d-block w-100" alt=""/>
                         </div>
                     </div>
                 </div>
-
             </div>
         );
     }
