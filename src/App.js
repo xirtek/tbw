@@ -18,12 +18,8 @@ function App() {
         <Encabezado/>
         <Menu/>
         <Switch>
-          <Route path="/historia">
-            <Historia/>
-          </Route>
-          <Route path="/">
-            <Contenido/>
-          </Route>
+          <Route exact path="/" component={Contenido}/>
+          <Route exact path="/historia" component={Historia}/>
         </Switch>
         <Footer/>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import { Link } from 'react-router-dom';
 
 class Menu extends React.Component{
     render(){
@@ -13,10 +14,10 @@ class Menu extends React.Component{
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                                    <Link class="nav-link" to="/">Inicio</Link>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="/historia">Historia</a>
+                                    <Link class="nav-link" to="/historia">Historia</Link>
                                 </li>
                             </ul>
                         </div>
