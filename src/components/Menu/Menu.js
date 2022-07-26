@@ -3,7 +3,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Link } from 'react-router-dom';
 
 class Menu extends React.Component{
-    render(){
+
+
+    render(){ 
         return (
             <div>
                <nav class="navbar navbar-expand-lg navbar-light bg-light">

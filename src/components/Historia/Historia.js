@@ -13,7 +13,7 @@ class Historia extends React.Component{
         return (
             <div>
                 <div class="row">
-                    <div class="col-sm d-flex">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 d-flex">
                         <div class="card card-body flex-fill">
                             <div class="card-body">
                                 <h1>Historia de The Breves W.E.A.S</h1>
@@ -28,7 +28,7 @@ class Historia extends React.Component{
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm d-flex">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 d-flex">
                         <div class="card card-body flex-fill">
                             <div class="card-body">
                                 <HistoriaImagenes/>

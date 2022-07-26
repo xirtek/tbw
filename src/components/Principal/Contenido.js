@@ -8,21 +8,21 @@ class Contenido extends React.Component{
         return (
             <div>
                 <div class="row">
-                    <div class="col-sm d-flex">
-                        <div class="card card-body flex-fillard">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg d-flex">
+                        <div class="card card-body flex-fill">
                             <div class="card-body">
                                 <Presentacion/>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm d-flex">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg d-flex">
                         <div class="card card-body flex-fill">
                             <div class="card-body">
                                 <Spotify/>                                
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm d-flex">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg d-flex">
                         <div class="card card-body flex-fill">
                             <div class="card-body">
                                 <Facebook/>
