@@ -5,7 +5,7 @@ class Presentacion extends React.Component{
     render(){
         return (
             <div>
-                <h1>¡Wena!</h1>
+                <h2>¡Wena!</h2>
                 <br/>
                 <p class="principal-justify">Bienvenidos al  podcast más clase B del mundo: The Breves With Energy And Smile, o simplemente The Breves W.E.A.S.</p>
                 <p class="principal-justify">Podcast para hablar de todo, pero principalmente temas relacionados a videojuegos, cómics y animación. Conducido por LOLO y nos acompaña en ciertas ocasiones como invitado SORA.</p>

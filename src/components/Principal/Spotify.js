@@ -16,7 +16,7 @@ const theme = 'black'; // or 'white'
   function Spotify() {
     return (
       <div>
-            <h1>Episodio Reciente</h1>
+            <h2>Episodio Reciente</h2>
             <br/>
             <SpotifyPlayer
                 uri="spotify:show:4JdaKvIBR3pOZjxwcyYh98"

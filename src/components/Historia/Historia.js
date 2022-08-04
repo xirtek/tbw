@@ -16,7 +16,7 @@ class Historia extends React.Component{
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 d-flex">
                         <div class="card card-body flex-fill">
                             <div class="card-body">
-                                <h1>Historia de The Breves W.E.A.S</h1>
+                                <h2>Historia de The Breves W.E.A.S</h2>
                                 <br/>
                                 <p class="historia-justify">Comenzamos el 23 de Septiembre del 2013 subiendo en nuestra 1ra versión del podcast en ivoox, <a class="link-dark" target="_blank" rel="noreferrer" href={tbwold}>The Breves WEAS</a> el capítulo: <a class="link-dark" target="_blank" rel="noreferrer" href={capitulo1}>Power Rangers Parte 1</a>.</p>
                                 <p class="historia-justify">Por ahí en el 2015, hicimos un par de streams en twitch (quedaron en el recuerdo).</p>
